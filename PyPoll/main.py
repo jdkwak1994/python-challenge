@@ -54,8 +54,8 @@ print(f'Winner: {unique_cand[win_index]}')
 print(f'----------------------------')
 
 # export as text
-path = os.path.join("analysis", "election_result.txt")
-with open(path, "w") as text:
+outpath = os.path.join("analysis", "election_result.txt")
+with open(outpath, "w") as text:
     text.write(f'Election Result \n')
     text.write(f'---------------------------- \n')
     text.write(f'Total Votes: {tvote} \n')

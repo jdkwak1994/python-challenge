@@ -47,8 +47,8 @@ print(f'Greatest Gain in Profit: {gprofit_month} (${gprofit})')
 print(f'Greatest Loss in Profit: {gloss_month} (${gloss})')
 
 # export as text
-path = os.path.join("analysis", "analysis_result.txt")
-with open(path, "w") as text:
+outpath = os.path.join("analysis", "analysis_result.txt")
+with open(outpath, "w") as text:
     text.write(f'Financial Analysis \n')
     text.write(f'---------------------------- \n')
     text.write(f'Total Months: {tmonths} \n')
