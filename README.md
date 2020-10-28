@@ -1,5 +1,5 @@
 # Python Challenge
-python-challenge week 3 homework, done by Jeongdae (JD) Kwak
+python-challenge week 3 homework, done by Jeongdae (JD) Kwak.
 
 ## Background
 Well... you've made it!
